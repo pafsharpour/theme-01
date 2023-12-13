@@ -40,7 +40,24 @@ function register_custom_menus() {
 add_action('init', 'register_custom_menus');
 
 
-function register_header_menu() {
-    register_nav_menu('header-menu', 'Header Menu');
+// function register_header_menu() {
+//     register_nav_menu('header-menu', 'Header Menu');
+// }
+// add_action('after_setup_theme', 'register_header_menu');
+
+
+
+// // Register header menu
+// function header_menu_init() {
+//     register_nav_menu('header-menu', 'Header Menu');
+// }
+// add_action('after_setup_theme', 'header_menu_init');
+
+// Display header menu
+function display_header_menu() {
+    wp_nav_menu(array(
+        'theme_location' => 'header-menu',
+        'menu_class' => 'header-menu',
+        'container' => '',
+    ));
 }
-add_action('after_setup_theme', 'register_header_menu');

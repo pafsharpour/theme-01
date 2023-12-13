@@ -117,9 +117,57 @@
                     <div class="hidden sm:block">
                         <img src="public/images/lgo-1.png" alt="">
                     </div>
-                    <?php
-                    get_template_part('header-menu');
-                    ?>
+                    <!-- <nav id="header-nav"> -->
+                    <nav class="w-full sm:w-fit max-h-[60vh] overflow-y-auto sm:overflow-y-visible">
+                        <ul class="
+                            flex
+                            justify-center
+                            items-center
+                            gap-4
+                            [&_li>a]:after:block
+                            [&_li>a]:after:border-b
+                            [&_li>a]:after:border-solid
+                            [&_li>a]:after:border-primary
+                            [&_li>a]:after:transition-all
+                            [&_li>a]:after:w-0
+                            [&_li:hover>a]:after:w-full
+                            [&_li.active>a]:after:w-full
+                            [&>li]:relative
+
+                            [&>li>ul]:bg-section
+                            [&>li>ul]:rounded
+                            sm:[&>li>ul]:absolute
+                            sm:[&>li>ul]:w-max
+                            [&>li>ul>li]:my-1
+                            [&>li>ul]:mt-1
+                            [&>li>ul]:transition-all
+                            sm:[&>li>ul]:scale-y-0
+                            sm:[&>li:hover>ul]:scale-y-100
+                            [&>li>ul]:origin-top
+                            [&>li>ul]:top-full
+                            flex-col
+                            sm:flex-row
+                            sm:[&_li]:w-fit
+                            [&_li]:w-full
+                            sm:[&_li]:p-0
+                            [&_li]:p-2
+                            [&_li]:px-4
+                            sm:[&_li]:px-0
+                            sm:[&_li]:border-none
+                            [&_li]:border-b
+                            [&_li_a]:w-fit
+                            [&_li_a]:block
+                            [&_li]:border-text/40
+                            ">
+                            
+                            <?php
+                            // get_template_part('header-menu');
+                                display_header_menu(); 
+                            ?>
+
+                        </ul>
+                    </nav>
+<!-- </nav> -->
 
                 </div>
             </div>

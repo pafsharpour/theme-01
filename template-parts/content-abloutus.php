@@ -1,4 +1,10 @@
-<?php get_header(); ?>
+<?php
+/*
+Template Name: about us Template
+*/
+
+get_header();
+?>
 <div>
             <h1 class="text-center text-ExtraBold-md md:text-ExtraBold">
                 Digital <span class="text-primary"> solution </span>for <br>

@@ -1,4 +1,11 @@
-<?php get_header(); ?>
+<?php
+/**
+ * Template Name: home page tamplate
+ * Template Post Type: page
+ */
+
+get_header();
+?>
 <div class="flex gap-20 items-stretch justify-between sm:flex-row flex-col">
             <div class="items-center flex justify-center">
                 <img src="<?php echo get_template_directory_uri(); ?>/template-parts/public/images/Header pic.png" alt="header image" />
