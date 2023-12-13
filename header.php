@@ -119,7 +119,7 @@
                     </div>
                     <!-- <nav id="header-nav"> -->
                     <nav class="w-full sm:w-fit max-h-[60vh] overflow-y-auto sm:overflow-y-visible">
-                        <ul class="
+                        <!-- <ul class="
                             flex
                             justify-center
                             items-center
@@ -158,14 +158,14 @@
                             [&_li_a]:w-fit
                             [&_li_a]:block
                             [&_li]:border-text/40
-                            ">
+                            "> -->
                             
                             <?php
                             // get_template_part('header-menu');
                                 display_header_menu(); 
                             ?>
 
-                        </ul>
+                        <!-- </ul> -->
                     </nav>
 <!-- </nav> -->
 

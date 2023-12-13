@@ -9,7 +9,7 @@
                     <div class="flex-1">
                         <div class="flex gap-7 sm:gap-16 sm:flex-nowrap flex-wrap-reverse">
                             <nav class="w-full sm:w-fit">
-                                <ul
+                                <!-- <ul
                                     class="sm:flex grid grid-cols-3 [&>li]:m-auto text-center h-full sm:flex-col justify-between gap-2 [&_li]:after:block [&_li]:after:border-b [&_li]:after:border-solid [&_li]:after:border-primary [&_li]:after:transition-all [&_li]:after:w-0 [&_li:hover]:after:w-full [&_li.active]:after:w-full [&_li]:w-max">
                                     <li><a href="#">Home</a></li>
                                     <li><a href="#">Services</a></li>
@@ -18,7 +18,12 @@
                                     <li><a href="#">Contact</a></li>
                                     <li><a href="#">Projects</a></li>
                                     <li><a href="#">FAQ</a></li>
-                                </ul>
+                                </ul> -->
+
+                                <?php
+                            // get_template_part('header-menu');
+                                display_footer_menu(); 
+                            ?>
                             </nav>
                             <div class="flex-auto">
                                 <div class="[&>*]:mb-5">
