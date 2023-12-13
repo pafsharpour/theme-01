@@ -14,7 +14,7 @@
         rel="stylesheet">
     <link href="/styles/output.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-    <link href="/styles/style.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
     <title><?php wp_title();?></title>
     <?php wp_head();?>
 </head>

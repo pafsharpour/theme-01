@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="flex gap-20 items-stretch justify-between sm:flex-row flex-col">
             <div class="items-center flex justify-center">
-                <img src="public/images/Header pic.png" alt="header image" />
+                <img src="<?php echo get_template_directory_uri(); ?>/template-parts/public/images/Header pic.png" alt="header image" />
             </div>
             <div class="items-center flex flex-col justify-center">
                 <h1 class="w-full">
@@ -41,8 +41,8 @@
         <div class="grid sm:grid-cols-2 gap-10">
             <div>
                 <video controls class="w-full cursor-pointer h-full rounded-lg"
-                    src="public/video/foodexdigitalagency.mp4"
-                    poster="public/images/annie-spratt-qckxruozj-rg-unsplash-1.png">
+                    src="<?php echo get_template_directory_uri(); ?>/template-parts/public/video/foodexdigitalagency.mp4"
+                    poster="<?php echo get_template_directory_uri(); ?>/template-parts/public/images/annie-spratt-qckxruozj-rg-unsplash-1.png">
                 </video>
             </div>
             <div class="h-full items-center flex">
@@ -72,43 +72,43 @@
                 <div class="swiper brandsSwiper relative">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="public/images/brands/1.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/template-parts/public/images/brands/1.png" alt="">
                         </div>
 
                         <div class="swiper-slide">
-                            <img src="public/images/brands/2.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/template-parts/public/images/brands/2.png" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img src="public/images/brands/3.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/template-parts/public/images/brands/3.png" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img src="public/images/brands/4.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/template-parts/public/images/brands/4.png" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img src="public/images/brands/5.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/template-parts/public/images/brands/5.png" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img src="public/images/brands/6.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/template-parts/public/images/brands/6.png" alt="">
 
                         </div>
                         <div class="swiper-slide">
-                            <img src="public/images/brands/1.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/template-parts/public/images/brands/1.png" alt="">
                         </div>
 
                         <div class="swiper-slide">
-                            <img src="public/images/brands/2.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/template-parts/public/images/brands/2.png" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img src="public/images/brands/3.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/template-parts/public/images/brands/3.png" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img src="public/images/brands/4.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/template-parts/public/images/brands/4.png" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img src="public/images/brands/5.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/template-parts/public/images/brands/5.png" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img src="public/images/brands/6.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/template-parts/public/images/brands/6.png" alt="">
 
                         </div>
                     </div>
@@ -290,7 +290,7 @@
         <div class="!max-w-none bg-section ">
             <div class="grid sm:grid-cols-2 gap-10 py-8 max-w-[1140px] mx-auto">
                 <div class="flex items-center justify-center">
-                    <img src="public/images/group-44.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/template-parts/public/images/group-44.png" alt="">
                 </div>
                 <div class="h-full flex flex-col justify-center gap-5">
                     <h4 class="text-primary text-SemiBold-md md:text-SemiBold">Why Should present in Digital World?</h4>
@@ -628,7 +628,7 @@
                         <div class="swiper-slide">
                             <div class="bg-section p-4 rounded-2xl flex flex-col gap-5">
                                 <a href="#"><img class="aspect-video object-cover rounded-2xl"
-                                        src="public/images/article.png" alt=""></a>
+                                        src="<?php echo get_template_directory_uri(); ?>/template-parts/public/images/article.png" alt=""></a>
                                 <div>
                                     <h4 class="text-primary text-SemiBold md:text-SemiBold">The best Fast food Menu
                                     </h4>
@@ -660,7 +660,7 @@
                         <div class="swiper-slide">
                             <div class="bg-section p-4 rounded-2xl flex flex-col gap-5">
                                 <a href="#"><img class="aspect-video object-cover rounded-2xl"
-                                        src="public/images/article.png" alt=""></a>
+                                        src="<?php echo get_template_directory_uri(); ?>/template-parts/public/images/article.png" alt=""></a>
                                 <div>
                                     <h4 class="text-primary text-SemiBold md:text-SemiBold">The best Fast food Menu
                                     </h4>
@@ -692,7 +692,7 @@
                         <div class="swiper-slide">
                             <div class="bg-section p-4 rounded-2xl flex flex-col gap-5">
                                 <a href="#"><img class="aspect-video object-cover rounded-2xl"
-                                        src="public/images/article.png" alt=""></a>
+                                        src="<?php echo get_template_directory_uri(); ?>/template-parts/public/images/article.png" alt=""></a>
                                 <div>
                                     <h4 class="text-primary text-SemiBold md:text-SemiBold">The best Fast food Menu
                                     </h4>
@@ -724,7 +724,7 @@
                         <div class="swiper-slide">
                             <div class="bg-section p-4 rounded-2xl flex flex-col gap-5">
                                 <a href="#"><img class="aspect-video object-cover rounded-2xl"
-                                        src="public/images/article.png" alt=""></a>
+                                        src="<?php echo get_template_directory_uri(); ?>/template-parts/public/images/article.png" alt=""></a>
                                 <div>
                                     <h4 class="text-primary text-SemiBold md:text-SemiBold">The best Fast food Menu
                                     </h4>
@@ -756,7 +756,7 @@
                         <div class="swiper-slide">
                             <div class="bg-section p-4 rounded-2xl flex flex-col gap-5">
                                 <a href="#"><img class="aspect-video object-cover rounded-2xl"
-                                        src="public/images/article.png" alt=""></a>
+                                        src="<?php echo get_template_directory_uri(); ?>/template-parts/public/images/article.png" alt=""></a>
                                 <div>
                                     <h4 class="text-primary text-SemiBold md:text-SemiBold">The best Fast food Menu
                                     </h4>
@@ -788,7 +788,7 @@
                         <div class="swiper-slide">
                             <div class="bg-section p-4 rounded-2xl flex flex-col gap-5">
                                 <a href="#"><img class="aspect-video object-cover rounded-2xl"
-                                        src="public/images/article.png" alt=""></a>
+                                        src="<?php echo get_template_directory_uri(); ?>/template-parts/public/images/article.png" alt=""></a>
                                 <div>
                                     <h4 class="text-primary text-SemiBold md:text-SemiBold">The best Fast food Menu
                                     </h4>
@@ -820,7 +820,7 @@
                         <div class="swiper-slide">
                             <div class="bg-section p-4 rounded-2xl flex flex-col gap-5">
                                 <a href="#"><img class="aspect-video object-cover rounded-2xl"
-                                        src="public/images/article.png" alt=""></a>
+                                        src="<?php echo get_template_directory_uri(); ?>/template-parts/public/images/article.png" alt=""></a>
                                 <div>
                                     <h4 class="text-primary text-SemiBold md:text-SemiBold">The best Fast food Menu
                                     </h4>
